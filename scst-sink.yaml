@@ -1,0 +1,12 @@
+team: ms360
+source:
+  git:
+    url: https://github.com/odedia/drinking-from-the-stream.git
+    revision: master
+    path: scst-sink
+build:
+  env:
+  - name: BP_JAVA_VERSION
+    value: 8.*
+image:
+  tag: harbor.pks.pvtl.eu/mytelco/scst-sink
