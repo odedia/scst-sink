@@ -24,7 +24,7 @@ class CoffeeDrinker {
 
     @StreamListener(value = Sink.INPUT)
     private void drink(RetailCoffee coffee) {
-        System.out.println("DRINKING COFFEE! " + coffee);
+        System.out.println("DRINKING COFFEE!" + coffee);
     }
 
 }
